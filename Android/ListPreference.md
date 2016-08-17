@@ -1,4 +1,5 @@
 # ListPreference
+2016.08.17
 
 Use ListPreference to create a single-select setting.
 
@@ -45,6 +46,6 @@ Use ListPreference to create a single-select setting.
               android:entries="@array/pref_unit_type"
               android:entryValues="@array/pref_unit_type_values">
           </ListPreference>
-          
+
     </PreferenceScreen>
   ```
