@@ -3,5 +3,5 @@
 Some new things I've learn or note for myself.
 
 ### Android
-- [PrefrenceFragment](Android/PrefernceFragment.md)
+- [PrefrenceFragment](Android/PreferenceFragment.md)
 - [ListPreference](Android/ListPreference.md)
