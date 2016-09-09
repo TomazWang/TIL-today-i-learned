@@ -1,4 +1,4 @@
-# Share Image By Intent
+# Sharing Image With Intent
 Make a share method to share image by intent.
 
 > See Also:

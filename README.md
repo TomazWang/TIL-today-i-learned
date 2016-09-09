@@ -7,7 +7,7 @@ Some new things I've learn or note for myself.
 - [ListPreference](Android/ListPreference.md)
 - [RecyclerView](Android/RecyclerView.md)
 - [Save Bitmap as Image File](Android/Save Bitmap as Image File.md)
-- [Share Image](Android/Share Image.md)
+- [Sharing Image With Intent](Android/Share Image.md)
 
 ## Python
 - [Crawl Web Content Into Json File Using requests and BeatifulSoup](Python/crawl_web_content_into_json_file_using_requests_and_beatifulsoup.md)
