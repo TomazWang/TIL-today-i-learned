@@ -13,7 +13,7 @@ Sharing content is easy. Simply invoke an intent with `ACTION_SEND`.
 1. new a Intent and pass Intent.ACTION_SEND as argument.
 2. use `setType()` and use [MIME type](https://www.sitepoint.com/web-foundations/mime-types-complete-list/) as argument.
 3. use `putExtra()` to put file inside intent.
-4. start Intent using `startActivity()` and create a [chooser](https://developer.android.com/reference/android/content/Intent.html#createChooser(android.content.Intent,%20java.lang.CharSequence)
+4. start Intent using `startActivity()` and create a [chooser](https://developer.android.com/reference/android/content/Intent.html#createChooser)
 
 ### Sample Codes
 
