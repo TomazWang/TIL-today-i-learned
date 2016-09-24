@@ -18,7 +18,6 @@ The RecyclerView is more flexible and more adavanced version of ListView.
 
 > Use the RecyclerView widget when you have data collections whose elements change at runtime based on user action or network events. - [Creating Lists and Cards](https://developer.android.com/training/material/lists-cards.html)
 
-
 ### LayoutManager
 RecyclerView provides built-in layout manager:
 - `LinearLayoutManager` shows items in a vertical or horizontal scrolling list.
@@ -36,6 +35,22 @@ RecyclerView also has built-in animations for adding and removing items, which i
 To customize the animation, extends the [RecyclerView.ItemAnimator](https://developer.android.com/reference/android/support/v7/widget/RecyclerView.ItemAnimator.html) class and use the ```RecyclerView.setItemAnimator()``` method.
 
 ## Example
+
+1. Import RecyclerView:
+
+    ```gradle
+    // gradle
+    ...
+    dependencies {
+        ...
+        compile 'com.android.support:recyclerview-v7:24.1.1'
+    }
+    ```
+
+    when using RecyclerView
+    ```java
+        import android.support.v7.widget.RecyclerView
+    ```
 
 1. First we place a RecyclerView widget in the layout.
   ```xml
