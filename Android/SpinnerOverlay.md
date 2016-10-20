@@ -14,7 +14,9 @@ After some google time, I found that this behavior of spinner is changed after A
 So, today I learned **There's two way to add spinner in Toolbar**
 
 > See Also:
->
+> - [StackOverflow/Android Lollipop, add popup menu from title in toolbar](http://stackoverflow.com/questions/26510930/android-lollipop-add-popup-menu-from-title-in-toolbar)
+> - [StackOverflow/Spinner drop down popup position changes in Nexus 5 (android 5.0)](http://stackoverflow.com/questions/28924230/spinner-drop-down-popup-position-changes-in-nexus-5-android-5-0)
+> - [How to Add Spinner (Dropdown List) to Android ActionBar/Toolbar](http://www.viralandroid.com/2016/03/how-to-add-spinner-dropdown-list-to-android-actionbar-toolbar.html)
 
 ### Use `menu.xml` to add a spinner(or any other view) in Toolbar.
 
@@ -101,3 +103,5 @@ Notice that I add a line to avoid the popup menu overlay issue: `android:overlap
 
 
 With this layout, you cant simply use `findViewById()` to get spinner Object and setAdapter as a regular spinner view.
+
+> This article is also post on my [logdown blog](http://tomazwang.logdown.com/posts/1016846).
