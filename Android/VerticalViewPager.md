@@ -19,6 +19,7 @@ I have to achieve a view with ViewPager style swiping effect but in vertical. Al
 
 
 __Final result__
+
 ![Final][img_done]
 
 ## First: create a custom ViewPager
