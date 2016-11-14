@@ -43,5 +43,5 @@ After marking  the commit, run a series of `git rebase --continue` and `git comm
 If this is your first time using `rebase` command. You probably want to create a temporary branch before you do all this time-traveling things. It might delete all your works if you don't handle it right.
 
 
-[rebase]:http://imgur.com/IJdqw3U
-[rebase-mark]:http://imgur.com/Bw4fzyQhttp://imgur.com/Bw4fzyQhttp://imgur.com/Bw4fzyQhttp://imgur.com/Bw4fzyQ
+[rebase]:http://i.imgur.com/IJdqw3U.png
+[rebase-mark]:http://i.imgur.com/Bw4fzyQ.png
