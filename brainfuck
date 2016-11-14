@@ -1,0 +1,78 @@
+> +++++ +++++           initialize counter (cell #1) to 10
+[                       use loop to set 40
+    < ++++              add  4 to cell #0
+    > -                 decrement counter (cell #1)
+]
+< +++++ +++ .           print 0
+
+>                       #1: 1 initial
+> +                     #2: 1 initial
+
+move to #0
+<<
+
+[
+
+move to #1
+>
+
+copy #1 to #3
+[
+    -
+    >> +
+    <<
+]
+
+move to #2
+>
+
+
+copy #2 to #3 and #4
+[
+    -
+    > +
+    > +
+    <<
+]
+
+move to #3(result)
+>
+
+copy result to #0 and #5
+[
+    -
+    <<< +
+    >>> >> +
+    <<
+]
+
+back to output #0
+<<< .
+
+move to #4
+>>>>
+
+copy #4 to #1 (next)
+[
+    -
+    <<< +
+    >>>
+]
+
+
+move to #5
+>
+
+
+reset #0
+[
+    -
+    <<<<< -
+    >> +
+    >>>
+]
+
+back to #0
+<<<<<
+
+]

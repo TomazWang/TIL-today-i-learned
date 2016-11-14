@@ -1,0 +1,38 @@
+initialize fake data as 157
++++++ +++++ : +++++ +++++ : +++++ +++++ : +++++ +++++ : +++++ +++
+
+
+[
+
+[
+    if #0 = 0 done
+    else start divide
+
+    >[-]                     clear #1
+    >[-] +++++ +++++         #2:10
+    <<
+
+    division
+    >>                       go to #2
+    [
+        -
+        < +                  copy to #1
+        < -
+        >>
+    ]
+
+    >+                       add one to tens
+    <<<                      back to #0
+]
+
+
+>[-<+>]                      copy #1 to #0
+
+>>[-<<+>>]                   copy #3 to #1
+
+
+<[-]                         reset #2
+
+
+<                            back to #1
+]
