@@ -1,4 +1,4 @@
-# Git edit UN-PUSH commint message
+# Git edit UN-PUSHED commint message
 
 Before push, it's great to check your commit message one more time. Check if your message is clear for others or is your message contents smart commit keywords as you wish(which is the reason why I usually need to edit my commit message before push).
 
@@ -41,3 +41,7 @@ After marking  the commit, run a series of `git rebase --continue` and `git comm
 ## Remember
 
 If this is your first time using `rebase` command. You probably want to create a temporary branch before you do all this time-traveling things. It might delete all your works if you don't handle it right.
+
+
+[rebase]:http://imgur.com/IJdqw3U
+[rebase-mark]:http://imgur.com/Bw4fzyQhttp://imgur.com/Bw4fzyQhttp://imgur.com/Bw4fzyQhttp://imgur.com/Bw4fzyQ
