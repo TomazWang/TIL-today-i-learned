@@ -1,12 +1,12 @@
-# Git edit UN-PUSH commint message
+# Git: Edit UN-PUSHED commit message
 
 Before push, it's great to check your commit message one more time. Check if your message is clear for others or is your message contents smart commit keywords as you wish(which is the reason why I usually need to edit my commit message before push).
 
-__Notice__: methods below are only work before you push commits up to remote branch.
+__Notice:__ methods below only work before you push commits up to remote branch.
 
 ## Edit last commit message
 
-Edit last commit is easy. Simply commit again with tag `--amend` or `-a` and you can overwrite your last commit.
+Edit the last commit is easy. Simply commit again with tag `--amend` or `-a` and you can overwrite your last commit.
 
 ```
 $ git commit --amend
@@ -33,11 +33,15 @@ By changing the first word of each commit, you can mark which commit you want to
 ![rebase-mark][rebase-mark]
 
 > __NOTE:__
-> If all you want to change is the commit message, you can use command `reword` instead of `edit` which only edit the message.
+> If all you want to change is the commit message, you can use command `reword` instead of `edit` for message only edits.
 
 After marking  the commit, run a series of `git rebase --continue` and `git commit --amend` and rebase tool will take you all the way to edit the commits.
 
 
 ## Remember
 
-If this is your first time using `rebase` command. You probably want to create a temporary branch before you do all this time-traveling things. It might delete all your works if you don't handle it right.
+If this is your first time using `rebase` command. You probably want to create a temporary branch before you do all these time-traveling things. It might delete all your works if you don't handle it right.
+
+
+[rebase]:http://i.imgur.com/IJdqw3U.png
+[rebase-mark]:http://i.imgur.com/Bw4fzyQ.png
