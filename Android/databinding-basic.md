@@ -51,7 +51,7 @@ funcBtnB.setOnClickListener(new View.OnClickListener() {
 
 寫久了之後會發現findViewById寫很多很麻煩，還要cast成各種不同的View。OnClickListener也是需要每次都寫很長一段。當然也有許多方法可以縮減這些常見的冗長寫法
 
-__Java 8__
+### Java 8
 
 用Java 8的lambda可以讓OnClickListener更加簡化
 
@@ -72,7 +72,7 @@ funcBtnA.setOnClickListener(v -> funcA(v))
 >
 > 更多Java 8 lambda 可以參考[這裡][java-8-lambda]
 
-__ButterKnife__
+### ButterKnife
 
 [Butter Knife][bk]是一個老字號的View Injection工具，他可以讓你省去繁複的findViewById，也可以直接對View加入onClick、onLongClick之類的功能。
 
