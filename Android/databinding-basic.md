@@ -69,6 +69,7 @@ funcBtnA.setOnClickListener(v -> funcA(v))
 
 ```
 > __NOTE__: Android 使用Java 8 前要先做一些[環境設定][android-8]
+>
 > 更多Java 8 lambda 可以參考[這裡][java-8-lambda]
 
 __ButterKnife__
