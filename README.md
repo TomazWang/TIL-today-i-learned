@@ -23,6 +23,7 @@ Most of my TIL are about Android.
 
 ### Troubleshooting
 - [Crash in ListView at AbsListView.obtainView](Android/troubleshooting/Crash in ListView at AbsListView.obtainView.md)
+- ["match_parent" not working with Recycler View Item](Android/troubleshooting/recyclerview-item-match-parent.md)
 
 
 ---
