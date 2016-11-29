@@ -1,0 +1,3 @@
+# Why onCreate not wroking
+
+Today I learned Activity has two `onCreate()` method. There's an `onCreate(Bundle savedInstanceState, PersistableBundle persistentState)` method. It normally don't matter until you extends from other Activity, which already override `onCreate(Bundle savedInstanceState)` method. In this case, whatever you do in `onCreate(Bundle savedInstanceState, PersistableBundle persistentState)` will be blocked.
