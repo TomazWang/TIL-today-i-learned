@@ -1,6 +1,0 @@
-{
-  "name": "Til-today-i-learned",
-  "tagline": "",
-  "body": "# TIL: Today I Learned\r\n\r\nSome new things I've learn or note for myself.\r\n\r\n### Android\r\n- [PrefrenceFragment](Android/PreferenceFragment.md)\r\n- [ListPreference](Android/ListPreference.md)\r\n- [RecyclerView](Android/RecyclerView.md)\r\n\r\n\r\n### Python\r\n- [Crawl Web Content Into Json File Using requests and BeatifulSoup](Python/crawl_web_content_into_json_file_using_requests_and_beatifulsoup.md)\r\n",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
