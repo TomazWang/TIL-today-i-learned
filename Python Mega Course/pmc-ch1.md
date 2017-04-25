@@ -1,0 +1,27 @@
+# Study Note - Python Mega Course 04/25
+
+## Notes:
+- [PEP 8 ](https://www.python.org/dev/peps/pep-0008/#prescriptive-naming-conventions)
+- `function_name` should be lowercase with underscores
+
+
+### Create a function
+
+```python
+def function_name(arg1, arg2):
+    # do something here
+    # return result
+```
+                
+
+### Setting up environment  variable in bash
+
+1. Open `terminal`
+2. Use `cd ~` to navigate back to home directory
+3. Open up `.bash_profile` file with command `open .bash_profile`
+4. `export` variable `PATH`:
+	```bash
+    export PATH=/bin:$PATH
+    ```     
+5. use `:` as a separator between path and path
+
