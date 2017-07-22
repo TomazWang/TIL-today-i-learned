@@ -1,4 +1,4 @@
-# 來吧，和我一起做聊天機器人
+# 來吧，和我一起做聊天機器人 - Day 1
 
 > __NOTE:__ 
 > 
@@ -9,12 +9,15 @@
 來吧，和我一做一個聊天機器人
 目前是這樣規劃，利用 Line 提供的 Message API 與以 Python + Flask 為底的後台串接，來達成一個聊天機器人
 
+<!--more-->
+
+
 所以在機器人之前，我們需要一個 Flask 後台
 
 ## 建立一個 Python 專案
-聽起來好像很專業，但其實就是一個資料夾
+聽起來好像很專業，但其實就是一個資料夾(假設叫做`lets-built-a-chatbot`)
 資料夾中要包含兩個重點
-1. 專案本身 `stinky-tofu`：(這裡我用 stinky-tofu ，因為我預計叫我的機器人臭豆腐機器人)
+1. 專案本身 `chat-bot`
 2. 模擬環境 `venv`：這個資料夾可以不用自己建
 
 ### venv 虛擬環境
@@ -44,26 +47,34 @@ source  ./venv/bin/activate
 
 ``` python
 # app.py
-from flask import Flask, abort, request
+
+from flask import Flask
 
 # 新增一個 Flask app，就叫做 app
+
 app = Flask(__name__)
 
 
 # 建立你的第一個頁面
+
 app.route('/')
+
+
 def home():
     return 'Hello tomazium bot.'
 
 
 # 別忘了運行
+
 if __name__ == "__main__":
     app.run()
+
 ```
 
 ## 讓網頁 show 出來吧
 ```bash
-./venv/bin/python3 app.py
+# 在 lets-build-a-chatbot/chat-bot/ 中
+../venv/bin/python3 ./main/app.py
 ```
 
 使用模擬器的環境（這裡才有 Flask ) 來運行剛剛寫的小小  Flask 網頁
