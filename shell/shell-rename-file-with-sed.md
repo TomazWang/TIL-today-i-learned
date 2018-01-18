@@ -1,4 +1,4 @@
-# Rename multiple file (or do anything to them) at once  with `sed`
+# Rename multiple file (or do anything to them) at once  with `sed` and shell pipline.
 
 ### What `sed` does?
 
