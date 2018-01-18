@@ -1,9 +1,10 @@
-# Batch rename file (or do anything)  with sed
+# Rename multiple file (or do anything to them) at once  with `sed`
 
 ### What `sed` does?
 
-tldr (with literal `tldr` command)
+`sed` is a shell command that can replace input base on regular expression.
 
+tldr (with literal `tldr` command)
 ```bash
 sed
 
